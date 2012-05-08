@@ -1,0 +1,75 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<title>Hackerspace Kraków - Home Page</title>
+</head>
+<body>
+	<header>
+		<a href=""><img id="logo" src="images/hackerspace-logo.png" alt="Hackerspace Kraków logo" /></a>
+		<nav>
+			<ul>
+				<li><a href="">Projects</a></li>
+				<li><a href="">Events</a></li>
+				<li><a href="">Hackers</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</nav>
+		<a id="login" class="button" href="">Log in</a>
+	</header>
+	
+	<div id="content">
+		<div id="data">
+			<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+			<script>
+			new TWTR.Widget({
+			  version: 2,
+			  type: 'profile',
+			  rpp: 10,
+			  interval: 30000,
+			  width: 550,
+			  height: 300,
+			  theme: {
+				shell: {
+				  background: '#EBEBEB',
+				  color: '#000000'
+				},
+				tweets: {
+				  background: '#EBEBEB',
+				  color: '#000000',
+				  links: '#7C7C7C'
+				}
+			  },
+			  features: {
+				scrollbar: true,
+				loop: false,
+				live: true,
+				behavior: 'all'
+			  }
+			}).render().setUser('hackerspace_krk').start();
+			</script>
+		</div>
+		
+		<aside>
+			<a href="" class="bigButton">1. Nie wiem o co chodzi</a>
+			<a href="" class="bigButton">2. Chcę zacząć</a>
+			<a href="" class="bigButton">3. Jestem wyjadaczem</a>
+		</aside>
+	</div>
+	
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="">Home Page</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Projects</a></li>
+				<li><a href="">Events</a></li>
+				<li><a href="">Hackers</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="">Sponsors</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

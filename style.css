@@ -61,7 +61,7 @@ a {
 	
 	aside {
 		display: table-cell;
-		width: 200px;
+		width: 175px;
 		border-left: 1px dashed #7C7C7C;
 		padding: 0 20px;
 		}
@@ -88,6 +88,16 @@ a {
 	background: url("images/grid-small.png");
 	text-align: center;
 	}
+	
+#projects ul {
+	list-style: none;
+	margin-left: -40px;
+	list-style: none;
+	}
+	
+	#projects ul li {
+		margin-bottom: 10px;
+		}
 
 /* Header */
 header {
@@ -151,8 +161,9 @@ footer {
 	margin-top: 50px;
 	position: bottom;
 	width: 100%;
-	height: 80px;
+	height: 130px;
 	border-top: 1px dashed #7C7C7C;
+	text-align: center;
 	}
 	
 	footer nav {
@@ -171,3 +182,7 @@ footer {
 				height: 25px;
 				float: left;
 				}
+	footer p, p a{
+		margin-top: 30px;
+		color: #7C7C7C;
+		}

@@ -21,15 +21,16 @@
 	
 	<div id="content">
 		<div id="data">
+			<h2>Twitter</h2>
 			<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 			<script>
 			new TWTR.Widget({
 			  version: 2,
 			  type: 'profile',
-			  rpp: 10,
+			  rpp: 3,
 			  interval: 30000,
 			  width: 550,
-			  height: 300,
+			  height: 150,
 			  theme: {
 				shell: {
 				  background: '#EBEBEB',
@@ -49,9 +50,29 @@
 			  }
 			}).render().setUser('hackerspace_krk').start();
 			</script>
+			
+			<h2>Flickr</h2>
+			<style type="text/css">
+			#flickr_badge_source_txt {padding:0; font: 11px Arial, Helvetica, Sans serif; color:#000000;}
+			#flickr_badge_icon {display:block !important; margin:0 !important; border: 1px solid rgb(0, 0, 0) !important;}
+			#flickr_icon_td {padding:0 5px 0 0 !important;}
+			.flickr_badge_image {text-align:center !important;}
+			.flickr_badge_image img {border: 1px solid black !important;}
+			#flickr_www {display:block; padding:0 10px 0 10px !important; font: 11px Arial, Helvetica, Sans serif !important; color:#3993ff !important;}
+			#flickr_badge_uber_wrapper a:hover,
+			#flickr_badge_uber_wrapper a:link,
+			#flickr_badge_uber_wrapper a:active,
+			#flickr_badge_uber_wrapper a:visited {text-decoration:none !important; background:inherit !important;color:#7C7C7C;}
+			#flickr_badge_uber_wrapper {width:550px;background-color:#EBEBEB;border: solid 1px #EBEBEB;border-radius:5px;}
+			</style>
+			<table id="flickr_badge_uber_wrapper" cellpadding="0" cellspacing="10" border="0">
+			<tr>
+			<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=5&display=latest&size=t&layout=h&source=user&user=78164588%40N06"></script>
+			</tr></table>
 		</div>
 		
 		<aside>
+			<br />
 			<a href="" class="bigButton">1. Nie wiem o co chodzi</a>
 			<a href="" class="bigButton">2. Chcę zacząć</a>
 			<a href="" class="bigButton">3. Jestem wyjadaczem</a>
@@ -70,6 +91,8 @@
 				<li><a href="">Sponsors</a></li>
 			</ul>
 		</nav>
+		<br />
+		<p>design: <a href="http://about.me/mmskrzyp">mmskrzyp</a></p>
 	</footer>
 </body>
 </html>

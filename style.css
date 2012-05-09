@@ -48,56 +48,9 @@ a {
 		text-shadow: 1px 1px #FFF;
 		}
 		
-/* Content */
-#content {
-	display: table;
+img {
+	border: none;
 	}
-
-	#data {
-		display: table-cell;
-		width: 600px;
-		padding: 0 20px;
-		}
-	
-	aside {
-		display: table-cell;
-		width: 175px;
-		border-left: 1px dashed #7C7C7C;
-		padding: 0 20px;
-		}
-		
-.inlineList {
-	margin-left: -30px;
-	list-style: none;
-	}
-	
-	.inlineList li {
-		margin-right: 15px;
-		float: left;
-		}
-		
-.bigButton {
-	display: block;
-	width: 150px;
-	margin-bottom: 20px;
-	padding: 40px 15px;
-	border: 2px solid;
-	border-radius: 3px;
-	box-shadow: 0 5px 25px -5px #000000;
-	background: #FFF;
-	background: url("images/grid-small.png");
-	text-align: center;
-	}
-	
-#projects ul {
-	list-style: none;
-	margin-left: -40px;
-	list-style: none;
-	}
-	
-	#projects ul li {
-		margin-bottom: 10px;
-		}
 
 /* Header */
 header {
@@ -112,6 +65,8 @@ header {
 	border-bottom: 1px dashed #7C7C7C;
 	border-right: 1px dashed #7C7C7C;
 	box-shadow: 0 5px 25px -5px #000000;
+		-webkit-box-shadow: 0 5px 25px -5px #000000;
+		-moz-box-shadow: 0 5px 25px -5px #000000;
 	}
 	
 	header #logo {
@@ -131,6 +86,8 @@ header {
 		background: url("images/background.png");
 		outline: 1px dashed #7C7C7C;
 		box-shadow: inset 0 5px 25px -5px #000000;
+			-webkit-box-shadow: inset 0 5px 25px -5px #000000;
+			-moz-box-shadow: inset 0 5px 25px -5px #000000;
 		}
 		
 		header nav ul {
@@ -154,6 +111,34 @@ header {
 	
 	header #login {
 		display: none;
+		}
+		
+/* Content */
+#content {
+	display: table;
+	}
+
+	#data {
+		display: table-cell;
+		width: 600px;
+		padding: 0 20px;
+		}
+	
+	aside {
+		display: table-cell;
+		width: 175px;
+		border-left: 1px dashed #7C7C7C;
+		padding: 0 20px;
+		}
+	
+#projects ul {
+	list-style: none;
+	margin-left: -40px;
+	list-style: none;
+	}
+	
+	#projects ul li {
+		margin-bottom: 10px;
 		}
 
 /* Footer */
@@ -182,7 +167,36 @@ footer {
 				height: 25px;
 				float: left;
 				}
-	footer p, p a{
+				
+	footer p, p a {
 		margin-top: 30px;
 		color: #7C7C7C;
 		}
+		
+/* Elements */
+.inlineList {
+	margin-left: -30px;
+	list-style: none;
+	}
+	
+	.inlineList li {
+		margin-right: 15px;
+		float: left;
+		}
+		
+.bigButton {
+	display: block;
+	width: 150px;
+	margin-bottom: 20px;
+	padding: 40px 15px;
+	border: 2px solid;
+	border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+	box-shadow: 0 5px 25px -5px #000000;
+		-webkit-box-shadow: 0 5px 25px -5px #000000;
+		-moz-box-shadow: 0 5px 25px -5px #000000;
+	background: #FFF;
+	background: url("images/grid-small.png");
+	text-align: center;
+	}

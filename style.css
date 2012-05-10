@@ -200,3 +200,7 @@ footer {
 	background: url("images/grid-small.png");
 	text-align: center;
 	}
+	
+.current a {
+	text-decoration: underline;
+	}

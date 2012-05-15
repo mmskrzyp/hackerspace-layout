@@ -51,6 +51,26 @@ a {
 img {
 	border: none;
 	}
+	
+form input {
+	display: block;
+	width: 150px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 2px solid #7C7C7C;
+	border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+	box-shadow: 0 5px 25px -5px #000000;
+		-webkit-box-shadow: 0 5px 25px -5px #000000;
+		-moz-box-shadow: 0 5px 25px -5px #000000;
+	background: #EBEBEB;
+	/*background: url("images/grid-small.png");*/
+	text-align: center;
+	}
+	form input:focus {
+		
+		}
 
 /* Header */
 header {
@@ -116,6 +136,7 @@ header {
 /* Content */
 #content {
 	display: table;
+	width: 100%;
 	}
 
 	#data {
@@ -184,6 +205,21 @@ footer {
 		float: left;
 		}
 		
+.button {
+	display: block;
+	padding: 5px;
+	border: 2px solid;
+	border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+	box-shadow: 0 5px 25px -5px #000000;
+		-webkit-box-shadow: 0 5px 25px -5px #000000;
+		-moz-box-shadow: 0 5px 25px -5px #000000;
+	background: #FFF;
+	background: url("images/grid-small.png");
+	text-align: center;
+	}
+		
 .bigButton {
 	display: block;
 	width: 150px;
@@ -200,7 +236,28 @@ footer {
 	background: url("images/grid-small.png");
 	text-align: center;
 	}
+
+.bigButtonBar {
+	height: 120px;
+	margin-left: 105px;
+	}
+	.bigButtonBar .bigButton {
+		height: 30px;
+		float: left;
+		margin-right: 20px;
+		}
+		
+#loginBar {
+	border: 1px dashed #7C7C7C;
+	padding: 20px;
+	display: table;
+	}
+	#loginBar form {
+		display: table-cell;
+		width: 150px;
+		padding-right: 20px;
+		}
 	
-.current a {
+a.current, .current a {
 	text-decoration: underline;
 	}

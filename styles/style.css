@@ -250,7 +250,8 @@ footer {
 #loginBar {
 	border: 1px dashed #7C7C7C;
 	padding: 20px;
-	display: table;
+	/*display: table;*/
+	display: none;
 	}
 	#loginBar form {
 		display: table-cell;

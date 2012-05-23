@@ -147,7 +147,7 @@ header {
 
 	#data {
 		display: table-cell;
-		width: 600px;
+		width: 590px;
 		padding: 0 20px;
 		}
 	
@@ -155,7 +155,7 @@ header {
 		display: table-cell;
 		width: 200px;
 		border-left: 1px dashed #7C7C7C;
-		padding: 20px 0 0 30px;
+		padding-left: 20px;
 		}
 	
 #projects ul {
@@ -255,7 +255,7 @@ footer {
 		
 #loginBar {
 	border: 1px dashed #7C7C7C;
-	width: 100%;
+	width: 600px;
 	padding: 20px;
 	display: table;
 	/*display: none;*/
